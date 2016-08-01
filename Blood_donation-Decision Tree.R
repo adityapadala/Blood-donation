@@ -1,6 +1,6 @@
 ---
 title: "Blood donation-Decision trees"
-author: "Aditya Padal"
+author: "Aditya Padala"
 date: "4 November 2015"
 output: word_document
 ---
@@ -9,8 +9,8 @@ output: word_document
 ```{r}
 getwd()
 setwd('path')
-train <- read.csv('C:/Users/VISWANATH/Desktop/Aditya/Study/Blood Donation/BloodDonation.csv')
-test <-  read.csv('C:/Users/VISWANATH/Desktop/Aditya/Study/Blood Donation/TestData.csv')
+train <- read.csv('/path/BloodDonation.csv')
+test <-  read.csv('/path/TestData.csv')
 str(train)
 str(test)
 
@@ -53,7 +53,7 @@ my_prediction <- predict(train_dt1, test)
 my_solution <- data.frame(test$Student,my_prediction)
 head(my_solution)
 
-write.csv(my_solution,"C:/Users/VISWANATH/Desktop/Aditya/Study/Blood Donation/Sol_DT2.csv")
+write.csv(my_solution,"/path/Sol_DT2.csv")
 ```
 
 building using random forest
@@ -66,6 +66,6 @@ my_prediction <- predict(my_forest, test)
 my_solution <- data.frame(test$Student,my_prediction)
 head(my_solution)
 
-write.csv(my_solution,"C:/Users/VISWANATH/Desktop/Aditya/Study/Blood Donation/Sol_DT2.csv")
+write.csv(my_solution,"/path/Sol_DT2.csv")
 ```
 
