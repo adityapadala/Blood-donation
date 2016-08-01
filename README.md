@@ -1,4 +1,4 @@
-# Blood-donation #DrivenData
+# Blood-donation-DrivenData
 
 The goal of this project is to predict whether he/she donated blood in March 2007.
 
