@@ -8,7 +8,7 @@ output: word_document
 
 ```{r}
 getwd()
-setwd('C:/Users/VISWANATH/Desktop/Aditya/Study/Blood Donation')
+setwd('path')
 train <- read.csv('C:/Users/VISWANATH/Desktop/Aditya/Study/Blood Donation/BloodDonation.csv')
 test <-  read.csv('C:/Users/VISWANATH/Desktop/Aditya/Study/Blood Donation/TestData.csv')
 str(train)
